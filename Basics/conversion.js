@@ -16,3 +16,24 @@ console.log(str3)
 
 console.log("2" == 2)
 console.log("2" === 2)
+
+// primitive - 7 => string, number, bool, null, undefinr=ed, symbol, bigInt
+
+const symboll = symbol('123')
+
+let bigNum = 12345678912345678n
+
+// nonpre / reference - array, objects, functions
+
+const color = ['red', 'black']
+
+let myObj = {
+    name: "hitesh",
+    branch: "cse"
+}
+
+const myFun = function(){
+    console.log("sdfghnjm")
+}
+
+// memories -- stack(primitive)(get copies), heap(nonPri...)(by refrence)
